@@ -89,28 +89,28 @@
       .col-lg-9
         .row.mb-5
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-secundario.p-4
+            .tarjeta--boton.color-secundario.p-4.crd.crd--100
               .row.justify-content-center.mb-3
                 .col-6
                   figure
                     img(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
               h4.text-center.mb-5 Presupuestos
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-secundario.p-4
+            .tarjeta--boton.color-secundario.p-4.crd.crd--100
               .row.justify-content-center.mb-3
                 .col-6
                   figure
                     img(src='@/assets/curso/tema1/ico2.svg', alt='Texto que describa la imagen')
               h4.text-center.mb-4  Calendarios de depreciación
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-secundario.p-4
+            .tarjeta--boton.color-secundario.p-4.crd.crd--100
               .row.justify-content-center.mb-3
                 .col-6
                   figure
                     img(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen')
               h4.text-center.mb-4  Revisiones de cuentas
           .col-sm-6.col-lg-3.mb-4.mb-lg-0
-            .tarjeta--boton.color-secundario.p-4
+            .tarjeta--boton.color-secundario.p-4.crd.crd--100
               .row.justify-content-center.mb-3
                 .col-6
                   figure
@@ -141,27 +141,27 @@
         p.mt-5 <strong> Algunas de las funciones claves de un sistema financiero son:  </strong>
       .col-lg-9
         SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-          .tarjeta.color-secundario.p-4.color2
+          .tarjeta.color-secundario.p-4.color2.crd.crd--100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/tema1/ico5.svg' alt='AvatarTop')
             p.text-center.mb-4  Producir información sobre posibles inversiones y asignar capital.
-          .tarjeta.color-secundario.p-4.color2
+          .tarjeta.color-secundario.p-4.color2.crd.crd--100
             .row.justify-content-center.mb-3
               .col-5
                 img(src='@/assets/curso/tema1/ico6.svg' alt='AvatarTop')
             p.text-center.mb-0   Monitorear las inversiones y ejercer el gobierno corporativo después de proporcionar financiamiento.
-          .tarjeta.color-secundario.p-4.color2
+          .tarjeta.color-secundario.p-4.color2.crd.crd--100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/tema1/ico7.svg' alt='AvatarTop')
             p.text-center.mb-4  Facilitar la negociación, diversificación y gestión del riesgo.
-          .tarjeta.color-secundario.p-4.color2
+          .tarjeta.color-secundario.p-4.color2.crd.crd--100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/tema1/ico8.svg' alt='AvatarTop')
             p.text-center.mb-4  Movilización y mancomunación de ahorros.
-          .tarjeta.color-secundario.p-4.color2
+          .tarjeta.color-secundario.p-4.color2.crd.crd--100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/tema1/ico9.svg' alt='AvatarTop')
