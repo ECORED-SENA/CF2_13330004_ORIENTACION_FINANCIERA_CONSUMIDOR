@@ -1,19 +1,104 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+.bg1
+  background-image: url("../assets/curso/tema1/bg1.png") !important
+  background-size: contain
+  margin-inline: -3.4rem
+  padding: 50px
+  @media screen and ( max-width: 992px)
+    background-size: cover
+    margin-inline: -2.5rem 
+.banner-interno__fondo
+  background-image: url("../assets/curso/fondo-banner-interno.png") !important
+  background-repeat: no-repeat   
+.color1
+  background-color: #92BFB1
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FFC631
+  border:#FFC631 
+.slyder-a__bullets__item--active
+  background-color: #033F71!important
+.slyder-a__bullets__item
+  background-color: #D2E4DF
+.color2
+  background-color: #D9E2EA!important
+.color3
+  color: #00F3BE
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: #12263F
+.fon1
+  background-color: #A6FBE8
+  border-bottom-left-radius: 10px
+.fon2
+  background-color: #CDE2DB
+.tt
+  margin-left: -20px
+.bgaq
+  background-color: #F9F7EC
+.col23
+  background-color: #CBD8E2!important
+.tarjeta.color-acento-botones--borde
+  background-color: #D8E1E9
+  border: #D8E1E9
+.colort
+  background-color: #EFEDED
+.colort2
+  background-color: white!important
+.cal1
+  background-color: #92BFB1!important
+.cal2
+  background-color: #D3E5E0!important
+.cal3
+  background-color: #F4F9F7!important
+.azq
+  background-color: #F9F7EC
+  border-radius: 10px
+.backga
+  background-color: #83C3B2
+.aqw
+  background-color: #F9F7EC
+.info1
+  background-color: #92BFB1
+
+.info2
+  background-color: #FFFFFF
+.img-infografica-b__modal__contenido div > *
+  color: #12263F!important
+.fon22
+  background-color: #F9F7EC
+.bdt
+  border-top: 2px solid #003B73
+.aq1
+  background-color: #A6FBE8
+  border-radius: 10px
+.azq1
+  background-color: #CDFDF2
+  border-top: 4px solid #00F3BE
+.bgb
+  background-color: #92BFB1
+.bb1
+  border-bottom: 2px solid #88A4BE
+.tarjetas-up
+
+  overflow: hidden
+  border-radius: 10px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
-
-@keyframes float1
-  0%
-    transform: translateY(20px)
-
-  100%
-    transform: translateY(0px)
+    border-radius: 10px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -80%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -40%
+    i:first-child
+      display: none
+    i:last-child
+      display: block  
+.tarjetas-up:hover .tarjetas-up_card
+  background-color: #92BFB1
+.tarjetas-up_card
+  background-color: #92BFB1
