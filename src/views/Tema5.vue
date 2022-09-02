@@ -113,14 +113,14 @@
         p.mt-5 Existen cuatro tipos de estados financieros que se encuentran dentro de un informe financiero e incluyen estados de resultados, balances, un estado de ganancias retenidas y estados de flujo de efectivo, los cuales se describen a continuación:
       .col-lg-7
         SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.crd.crd--100
             .row.justify-content-center.mb-3
               .col-5
                 img(src='@/assets/curso/tema5/ico1.svg' alt='AvatarTop')
             h5.text-center.text-white Estado de resultados
 
             p.text-center.mt-4.text-white También conocido como estado de pérdidas y ganancias, resume los ingresos, gastos y ganancias de una empresa,  esencialmente muestra cuánto ganó o perdió el negocio durante un período de tiempo y en última instancia, determina el ingreso neto o “resultado final” de una empresa.
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.crd.crd--100
             .row.justify-content-center.mb-3
               .col-5
                 img(src='@/assets/curso/tema5/ico2.svg' alt='AvatarTop')
@@ -130,7 +130,7 @@
             p.text-center.mb-5.mt-3.text-white Ofrece una visión general de los activos, pasivos y capital contable de una empresa en un solo momento.
             .row.mb-5
             .row.mb-5
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.crd.crd--100
             .row.justify-content-center.mb-3
               .col-5
                 img(src='@/assets/curso/tema5/ico3.svg' alt='AvatarTop')
@@ -140,7 +140,7 @@
             p.text-center.mt-4.mb-5.text-white Este revela los cambios en el patrimonio de una empresa durante un período contable estándar.
             .row.mb-5
             .row.mb-5
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.crd.crd--100
             .row.justify-content-center.mb-3
               .col-5
                 img(src='@/assets/curso/tema5/ico4.svg' alt='AvatarTop')
