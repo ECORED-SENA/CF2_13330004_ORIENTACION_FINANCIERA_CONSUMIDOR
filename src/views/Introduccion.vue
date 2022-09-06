@@ -11,7 +11,7 @@
     p En este componente de formación se abordarán los conceptos básicos que permitirán comprender los estados financieros y reconocer las normas aplicables.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/JNxNR9PZxkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5CkdQgB7a6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
